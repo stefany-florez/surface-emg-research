@@ -57,6 +57,10 @@ The prototype is powered by two 9 V batteries configured as a bipolar supply. Th
 
 ## Hardware validation
 
-A breadboard prototype was assembled and experimentally tested to verify the signal acquisition and conditioning stages.
+A breadboard prototype was assembled and experimentally tested to verify the signal acquisition and analog signal-conditioning stages.
 
 ![Surface EMG breadboard prototype](images/prototype_v0.1_breadboard.jpg)
+
+The amplification and rectification stages were experimentally evaluated using an oscilloscope. The corresponding measurements are documented in the [amplification](measurements/prototype_v0.1/amplification.md) and [rectification](measurements/prototype_v0.1/rectification.md) experiment records.
+
+The voltage-divider output was also measured during voluntary forearm muscle contraction. The output showed a half-wave rectified waveform with a measured peak-to-peak voltage of 3.91 V.
